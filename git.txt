@@ -1,3 +1,6 @@
 git init
 git status
 git add .
+git commit -m "primera subida"
+git remote add origin https://github.com/diegochavezcarro/restassured.git
+git push -u origin master
