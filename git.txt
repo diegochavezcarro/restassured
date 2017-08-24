@@ -18,3 +18,12 @@ git push -u origin master
 
 git remote add origin https://github.com/diegochavezcarro/restassured.git
 git push -u origin master
+
+
+clonar repo y crear uno nuevo:
+git clone https://github.com/diegochavezcarro/restassured.git
+cd restassured
+git remote -v
+git remote rm origin
+git remote add origin https://github.com/diegochavezcarro/pruebaclone.git
+git push -u origin master
